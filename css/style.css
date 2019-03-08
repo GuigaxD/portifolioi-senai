@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+nav > ul {
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        background-color: #000d22;
+        font-size: 1.3em;
+        height: 2.5em;
+        align-items: center;
+}
+ul a{
+    color: aliceblue;
+}
+
+
+body  {
+background-color: #000d22;
+}
+
+#logo {
+    width: 16%;
+    height: 16%;
+}
+#banner {
+    display: flex;
+    justify-content: center;
+    background-image: url("../imagens/banner2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #000d22;
+}
+body > section > img {
+    display: flex;
+    width: 500px;
+    margin: 50px;
+}
+#sobre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#sobre h1 {
+    position: relative;
+    top: -255px;
+    left: 100px;
+    color: #ffffff;
+}
+#sobre p{
+    position: relative;
+    left: 50px;
+    top: -100px;
+    color: #ffffff;
+    margin: 0 110px;
+}
+#portifolio {
+    text-align: center;
+    color: #ffffff
+}
+.hab {
+    position: relative;
+    left: -600px;
+    top: 90px;
+}
+.texto1 {
+    position: relative;
+    top: 140px;
+    left: -600px;
+}
+.certificados {
+    position: relative;
+    top: -175px;
+    left: 500px;
+}
+.texto2 {
+    position: relative;
+    top: -100px;
+    left: 490px;
+}
+#projeto {
+ 
+    color: #ffffff;
+    position: relative;
+    top: 200px;
+}
+
+#projeto h2{
+    position: relative;
+    left: 900px;
+}
+
+#iamge{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding:0 30%;
+    margin: none;
+}
+
+
+.tamanho_img{
+    width: 200px;
+    height: 200px;
+    padding: 50px 0;
+}
